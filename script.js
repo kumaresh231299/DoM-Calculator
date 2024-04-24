@@ -19,7 +19,7 @@ display.setAttribute('readonly', 'readonly');
 calculatorContainer.append(title, desc, display);
 
 const buttons = [
-    ['C', '<-', '.', '*'],
+    ['C', '←', '.', '*'],
     ['7', '8', '9', '/'],
     ['4', '5', '6', '-'],
     ['1', '2', '3', '+'],
@@ -70,7 +70,7 @@ function handleButtonClick(value) {
         case 'C':
             clearDisplay();
             break;
-        case '<-': 
+        case '←': 
             handleBackspace();
             break;
         default:
